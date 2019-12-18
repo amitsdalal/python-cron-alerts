@@ -14,8 +14,8 @@ def hit():
     if pull_pubs.status_code != 200:
             #send_mail()
             name = "MageHost Team"
-            from_address = "no-reply@noc.magehost.com"
-            to_address = "ad@magehost.com"
+            from_address = "no-reply@your-domain.com"
+            to_address = "a@your-domain.com, b@client-domain.com"
             subject = url
             msg = MIMEMultipart()
             msg['From'] = from_address
