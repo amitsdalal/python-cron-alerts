@@ -13,7 +13,7 @@ def hit():
     pull_pubs = requests.get(url)
     if pull_pubs.status_code != 200:
             #send_mail()
-            name = "MageHost Team"
+            name = "Team"
             from_address = "no-reply@your-domain.com"
             to_address = "a@your-domain.com, b@client-domain.com"
             subject = url
